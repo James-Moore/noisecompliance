@@ -1,0 +1,7 @@
+listeningIP = '0.0.0.0'
+michost = 'localhost'
+gpshost = 'localhost'
+sahost = 'localhost'
+micport='5001'
+gpsport='5002'
+saport='5003'

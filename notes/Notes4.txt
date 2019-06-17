@@ -1,0 +1,6 @@
+ 1534  docker build --tag=noisecompliance-microphone:latest .
+ 1535  docker ps
+ 1536  docker ps -a
+ 1537  docker images
+ 1538  docker images rm 8ae507f10e61
+ 1541  docker run --device /dev/snd:/dev/snd -p 5001:5001 noisecompliance-microphone

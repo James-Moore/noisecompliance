@@ -1,0 +1,40 @@
+Create "/etc/modprobe.d/default.conf" with "options snd_hda_intel index=1"
+https://dev.to/setevoy/linux-alsa-lib-pcmdmixc1108sndpcmdmixopen-unable-to-open-slave-38on
+
+Remove "ALSA lib pcm.c:2212:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear" errors by commenting default devices in alta.conf
+https://stackoverflow.com/questions/7088672/pyaudio-working-but-spits-out-error-messages-each-time
+
+REDIS INFORMATION START
+FROM:  https://github.com/antirez/redis/issues/3842
+@yliu120 - By default, all docker containers running on the same host can connect to each other via the EXPOSED port - the other containers should access redis via redis:6379 (and not via the PUBLISHed port).
+I suggest you take a look at the Docker Networking page here:
+https://docs.docker.com/engine/userguide/networking/
+REDIS INFORMATION END
+
+class MovingAverageCalculator {
+    constructor() {
+        this.count = 0
+        this._mean = 0
+    }
+
+    update(newValue) {
+        this.count++
+
+        const differential = (newValue - this._mean) / this.count
+
+        const newMean = this._mean + differential
+
+        this._mean = newMean
+    }
+
+    get mean() {
+        this.validate()
+        return this._mean
+    }
+
+    validate() {
+        if (this.count == 0) {
+            throw new Error('Mean is undefined')
+        }
+    }
+}

@@ -1,0 +1,49 @@
+parallels@parallels-Parallels-Virtual-Platform:~$ history | grep sudo
+  890  sudo apt install -y git make jq
+ 1026  sudo systemctl status ssh
+ 1053  sudo hzn dev service start -f temp-input.json
+ 1055  sudo echo $HZN_EXCHANGE_URL
+ 1056  sudo hzn dev service start -f temp-input.json
+ 1065  sudo hzn dev service stop
+ 1490  sudo apt install default-jdk
+ 1504  sudo apt-get install python3-distutils
+ 1521  sudo mv ~/Downloads/jetbrains-toolbox-1.14.5179/ .
+ 1531  sudo chown parallels:parallels .
+ 1549  sudo apt-get install compizconfig-settings-manager
+ 1553  sudo apt-get install cheese
+ 1557  sudo dpkg -l | grep SoundAn
+ 1558  sudo apt-get install python-SoundAnalyse
+ 1561  sudo find -name "analyseffi.cpython-36m-x86_64-linux-gnu.so" /
+ 1562  sudo find -name analyseffi.cpython-36m-x86_64-linux-gnu.so /
+ 1565  sudo find / -name "analyseffi.cpython-36m-x86_64-linux-gnu.so"
+ 1638  sudo apt install python-pip
+ 1639  sudo apt install python3-pip
+ 1657  sudo apt-get install python-pyaudio python3-pyaudio
+ 1658  sudo apt-get install portaudio19-dev
+ 1659  sudo python setup.py install
+ 1673  sudo python setup.py install
+ 1674  sudo python3.6 setup.py install
+ 1683  sudo python3.6 setup.py install
+ 1685  sudo python3 setup.py build/
+ 1686  sudo python3 setup.py build
+ 1687  sudo python3 setup.py install
+ 1706  sudo dpkg --list | grep pyaudio
+ 1708  sudo dpkg --list | grep libasound
+ 1709  sudo dpkg --s libasound2 | grep status
+ 1710  sudo dpkg -s libasound2 | grep status
+ 1711  sudo dpkg -s libasound2
+ 1712  sudo dpkg -s libasound2-dev
+ 1713  sudo apt-get install libasound2-dev
+ 1714  sudo apt-get install libasound2
+ 1717  sudo vi /etc/modprobe.d/default.conf
+ 1816  sudo apt-get
+ 1817  sudo apt
+ 1818  sudo apt search kitematic
+ 1819  sudo apt-cache search kitematic
+ 1820  sudo apt-cache search dockstation
+ 1831  sudo apt install /home/parallels/Downloads/Kitematic-0.17.7_amd64.deb
+ 1836  sudo lsof -i -P -n | grep LISTEN
+ 1883  sudo history | grep install
+ 1884  sudo history
+ 1887  history | sudo
+ 1888  history | grep sudo

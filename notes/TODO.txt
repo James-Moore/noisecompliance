@@ -1,0 +1,1 @@
+Reset expired window policy trackers after each iteration of the situational awareness loop.  This should be done in the awareness class

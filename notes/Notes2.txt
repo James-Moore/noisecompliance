@@ -1,0 +1,19 @@
+parallels@parallels-Parallels-Virtual-Platform:~$ history | grep apt
+  887  sudo apt list --installed | grep git
+  889  apt install -y git make jq
+  890  sudo apt install -y git make jq
+
+ 1490  sudo apt install default-jdk
+ 1492  apt-cache policy fuse
+ 1504  sudo apt-get install python3-distutils
+ 1549  sudo apt-get install compizconfig-settings-manager
+ 1553  sudo apt-get install cheese
+
+
+ 1558  sudo apt-get install python-SoundAnalyse
+ 1638  sudo apt install python-pip
+ 1639  sudo apt install python3-pip
+ 1657  sudo apt-get install python-pyaudio python3-pyaudio
+ 1658  sudo apt-get install portaudio19-dev
+ 1713  sudo apt-get install libasound2-dev
+ 1714  sudo apt-get install libasound2

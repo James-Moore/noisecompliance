@@ -1,0 +1,12 @@
+Policies:
+    - Policy:
+          - Type: "Impulse"
+          - Threshold: -10
+    - Policy:
+          - Type: "Window"
+          - Threshold: -20
+          - WindowSize: 20
+    - Policy:
+          - Type: "Window"
+          - Threshold: -70
+          - WindowSize: 5
